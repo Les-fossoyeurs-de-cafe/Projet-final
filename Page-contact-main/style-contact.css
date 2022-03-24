@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/*Navbar*/
+
+/*Navbar*/
+header {
+    background-color: #fff;
+    width: 1200px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.navbar {  /*Pour retirer le petit point de la liste nav*/
+    list-style: none;
+    display: flex;
+}
+
+.navbar li { /*Pour aligner la liste nav*/
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #A9A5A0;
+    text-decoration: none;      
+}
+
+mark { /*Pour changer la couleur d'une li spécifique en fonction de la page 
+    (ex: on est sur la page "à propos" ça seras la li "à propos" qui sera marqué) */
+    background-color: transparent;
+    color: #6955AA;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: auto;
+    color: #E74862;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Abril Fatface';
+    font-size: 34px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    margin: auto;
+    color: #424242;
+}
+
+input,textarea {
+    border: 1px solid #E74862;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00ADDE;
+    color: white;
+    border: none;
+    
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.button {
+
+    display: flex;
+    justify-content: right;
+}

@@ -38,7 +38,9 @@ mark { /*Pour changer la couleur d'une li spécifique en fonction de la page
     color: #6955AA;
 }
 
-
+section {
+    margin: 0 auto;
+}
 
 body {
     display: flex;

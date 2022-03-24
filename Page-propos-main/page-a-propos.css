@@ -4,15 +4,13 @@
 /*Navbar*/
 
 header {
-    position: absolute;
     background-color: #fff;
     width: 1200px;
     height: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    margin: 0 auto;
 }
 
 
@@ -46,7 +44,8 @@ main {
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(6,auto);
     row-gap: 50px; 
-    margin: 0px 350px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 /*Organisation des section*/
 
@@ -82,6 +81,7 @@ h3 {
 section { /*s'applique à toute les sections*/
     grid-column: 1/2;
     margin-top: 0px;
+    margin: 0 auto;
 }
 
 .pres { /*Section présentation*/
@@ -92,4 +92,5 @@ section { /*s'applique à toute les sections*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
